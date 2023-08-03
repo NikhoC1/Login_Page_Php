@@ -1,0 +1,15 @@
+{
+  "name": "login_page_php",
+  "version": "1.0.0",
+  "description": "Belajar login page php",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
