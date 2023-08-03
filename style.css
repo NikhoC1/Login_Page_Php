@@ -1,0 +1,42 @@
+.container{
+    margin-left :550px;
+    margin-top : 200px;
+    border-style: solid;
+    width :280px;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+form{
+    margin-left: 20px;
+}
+
+.sign{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.title{
+    text-align: center;
+}
+
+.email{
+    margin-top : 10px;
+    margin-bottom: 10px;
+    padding : 10px 25px;
+    margin : 8px 0;
+}
+.password{
+    margin-top : 10px;
+    margin-bottom: 10px;
+    padding : 10px 25px;
+    margin : 8px 0;
+}
+
+#simpan{
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+
+#simpan simpan:hover{
+    background-color : cyan;
+}
