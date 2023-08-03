@@ -5,4 +5,8 @@
     $database = "dblogin";
 
     $koneksi = mysqli_connect($host, $user, $password, $database);
+
+    if (!$koneksi) {
+        echo "Connection failed!";
+    }
 ?>
