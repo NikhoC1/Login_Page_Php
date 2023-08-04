@@ -15,18 +15,18 @@
     <div
         class=" container mx-auto border mt-[90px] rounded-xl w-96 h-[430px] shadow-xl shadow-gray-400 bg-yellow-00 bg-white">
         <h1 class="mt-4 text-2xl text-black ml-[130px] mb-10">Login Form</h1>
-        <form action="test.php" method="POST">
+        <form action="home.php" method="POST">
             <label class="ml-[30px]">Username :</label><br>
 
             <input
                 class=" border border-black hover:ring-1 hover:ring-sky-500 rounded-md ml-[20px] h-10 w-[340px] mt-4 mb-3 invalid:text-red-700 invalid:focus:ring-red-700 invalid:focus:border-red-700 peer pl-[15px]"
-                type="email" name="Username" id="Username" placeholder="Masukkan email anda"><br>
+                type="email" name="email" id="email" placeholder="Masukkan email anda"><br>
             <p class="text-sm ml-[19px] text-red-700 invisible peer-invalid:visible">Email Invalid</p>
 
             <label class="ml-[30px]">Password :</label><br>
             <input
                 class=" border border-black hover:ring-1 hover:ring-sky-500 rounded-md ml-[20px] h-10 w-[340px] mt-4 mb-3 pl-[15px]"
-                type="password" name="password" id="password" placeholder="Masukkan Password anda"><br>
+                type="password" name="pass" id="pass" placeholder="Masukkan Password anda"><br>
 
             <a href="#" class="ml-[20px] text-blue-400">Belum punya akun?</a><br>
             <button

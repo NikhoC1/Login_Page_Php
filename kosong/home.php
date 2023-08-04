@@ -3,7 +3,8 @@
     session_start();
 
     if (isset($_SESSION['idLogin']) && isset($_SESSION['email'])) {
-
+        die(header("Location: home.php"));
+    }
         ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +24,3 @@
 </body>
 
 </html>
-<?php
-}else{
-    header("Location: index.php");
-    exit();
-}
-
-?>
