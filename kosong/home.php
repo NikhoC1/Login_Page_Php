@@ -2,7 +2,7 @@
 
     session_start();
 
-    if (isset($_SESSION['idLogin']) && isset($_SESSION['Username'])) {
+    if (isset($_SESSION['idLogin']) && isset($_SESSION['email'])) {
 
         ?>
 <!DOCTYPE html>
@@ -16,7 +16,7 @@
 
 <body>
     <h1>hellow wir,
-        <?php echo $_SESSION['Username'] ?>
+        <?php echo $_SESSION['email'] ?>
     </h1>
 
     <a href="logout.php">Logout</a>
